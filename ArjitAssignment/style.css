@@ -1,0 +1,36 @@
+li{
+    list-style: none;
+}
+.header-color{
+    color: red;
+}
+.header-style{
+    padding: 5px;
+    margin-left: 30px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    padding: 10px;
+    margin-left: 10px;
+}
+.nav-items{
+    padding-right: 50px;
+    padding-left: 15px;
+}
+#nav-item1:active{
+    color: red;
+}
+#nav-item2:active{
+   color: red;
+}
+#nav-item3:active{
+    color: red;
+}
+#nav-item4:active{
+    color: red;
+}
+#nav-item5:active{
+    color: red;
+}

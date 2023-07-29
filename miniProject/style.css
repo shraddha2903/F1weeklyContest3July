@@ -1,0 +1,107 @@
+.section-1-bg{
+    background-image: linear-gradient(135deg, skyblue, white, skyblue);
+}
+body{
+    background-color: rgb(237, 227, 227);
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-attr{
+    height: 150px;
+    width: 13vw;
+    border: none;
+    border-radius: 100px;
+}
+.contact-info{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.about{
+    background-image: linear-gradient(145deg, white,skyblue,white,skyblue);
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.experience{
+    background-image: linear-gradient(135deg,skyblue,white,skyblue);
+    padding: 8px;
+    margin-top: 10px;
+}
+/* li{
+    padding: 2px;
+} */
+.duration{
+    position: relative;
+    margin-right: 0px;
+    font-weight: 600;
+}
+.ex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-2{
+    display: flex;
+    
+}
+.skills{
+    background-image: linear-gradient(135deg,skyblue,white,skyblue);
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    
+}
+.skills-main{
+    display: flex;
+    justify-content: center;
+}
+.section-3{
+    display: flex;
+    margin-top: 10px;
+}
+.projects{
+    background-image: linear-gradient(135deg,skyblue,white,skyblue);
+}
+.education{
+    background-image: linear-gradient(135deg,skyblue,white,skyblue);
+}
+
+/* mobile view */
+@media screen and (max-width:550px) {
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .img-attr{
+        height: 100px;
+        width: 30vw;
+        border: none;
+        border-radius: 100px;
+    }
+    .contact-info{
+        padding: 10px;
+        margin: 20px;
+        align-items: center;
+        font-size: 10px;
+    }
+    .about{
+        background-image: linear-gradient(145deg, white,skyblue,white,skyblue);
+        padding: 7px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        
+    }
+}
